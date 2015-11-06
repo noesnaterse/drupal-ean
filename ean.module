@@ -110,7 +110,7 @@ function ean_http_request($operation, $params, $locale = NULL) {
   $request_elements = array(
     'cid' => variable_get('ean_cid'),
     'apiKey' => variable_get('ean_key'),
-    'minorRev' => 16,
+    'minorRev' => 30,
     '_type' => 'json',
   );
 
